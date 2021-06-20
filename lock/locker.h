@@ -69,6 +69,7 @@ class locker {
     pthread_mutex_t m_mutex;
 };
 
+// 封装条件变量类
 class cond {
    public:
     // 初始化条件变量
